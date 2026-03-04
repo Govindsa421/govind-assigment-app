@@ -6,7 +6,7 @@ import { ChevronDown, Dot, LucideIcon } from 'lucide-react'
 
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
-import { DropdownMenuArrow } from '@radix-ui/react-dropdown-menu'
+
 import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
 import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from '@/components/ui/tooltip'
 import {
@@ -129,7 +129,6 @@ export function CollapseMenuButton({ icon: Icon, label, submenus, isOpen }: Coll
             </Link>
           </DropdownMenuItem>
         ))}
-        <DropdownMenuArrow className='fill-border' />
       </DropdownMenuContent>
     </DropdownMenu>
   )
