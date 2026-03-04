@@ -103,9 +103,7 @@ export function CollapseMenuButton({ icon: Icon, label, submenus, isOpen }: Coll
                     <span className={cn(isOpen === false ? '' : 'mr-4')}>
                       <Icon size={18} />
                     </span>
-                    <p className={cn('max-w-[200px] truncate', isOpen === false ? 'opacity-0' : 'opacity-100')}>
-                      {label}
-                    </p>
+                    <p className={cn('max-w-50 truncate', isOpen === false ? 'opacity-0' : 'opacity-100')}>{label}</p>
                   </div>
                 </div>
               </Button>
