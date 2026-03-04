@@ -18,6 +18,7 @@ export const useAuth = () => {
     try {
       const storedUser = localStorage.getItem(USER_STORAGE_KEY)
       if (storedUser) {
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setUser(JSON.parse(storedUser))
       }
     } catch (error) {

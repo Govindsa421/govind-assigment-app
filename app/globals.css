@@ -87,7 +87,7 @@
 }
 
 .dark {
-  --background: oklch(0.13 0.01 270); /* near black */
+  --background: oklch(0.13 0.01 270);
   --foreground: oklch(0.95 0 0);
 
   --card: oklch(0.18 0.01 270);
@@ -96,7 +96,6 @@
   --popover: oklch(0.18 0.01 270);
   --popover-foreground: oklch(0.95 0 0);
 
-  /* Teal Accent */
   --primary: #0cc8a8;
   --primary-foreground: oklch(0.12 0 0);
 
@@ -115,7 +114,6 @@
   --input: oklch(1 0 0 / 12%);
   --ring: #0cc8a8;
 
-  /* Sidebar */
   --sidebar: oklch(0.17 0.01 270);
   --sidebar-foreground: oklch(0.95 0 0);
   --sidebar-primary: #0cc8a8;
